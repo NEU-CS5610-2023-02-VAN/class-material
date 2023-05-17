@@ -1,0 +1,24 @@
+.div-class {
+  height: 100px;
+  width: 100px;
+  background-color: mediumpurple;
+  border: 1px solid #1f618d;
+  
+  /* display: inline; */
+  /* display: inline-block; */
+}
+
+.a-class {
+  background-color: gold;
+  /* height and width are useless for inline display */
+  /* height: 200px;
+  width: 200px; */
+
+  /* display: inline-block; */
+}
+
+.button-class {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+}

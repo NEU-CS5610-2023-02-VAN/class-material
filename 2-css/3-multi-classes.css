@@ -1,0 +1,13 @@
+.class-a {
+  height: 100px;
+  width: 100px;
+  background-color: yellowgreen;
+}
+
+.class-b {
+  background-color: mediumpurple;
+}
+
+.class-a.class-b {
+  border-radius: 25px;
+}

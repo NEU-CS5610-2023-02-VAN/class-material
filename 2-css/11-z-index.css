@@ -1,0 +1,35 @@
+.relative-class-1 {
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+  position: relative;
+
+  top: 10px;
+  left: 5px;
+
+  /* z-index: 3; */
+}
+
+.relative-class-2 {
+  height: 100px;
+  width: 100px;
+  background-color: green;
+  position: relative;
+
+  top: -100px;
+  left: 50px;
+
+  /* z-index: 2; */
+}
+
+.relative-class-3 {
+  height: 100px;
+  width: 100px;
+  background-color: magenta;
+  position: relative;
+
+  top: -250px;
+  left: 90px;
+
+  /* z-index: 1; */
+}

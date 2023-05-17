@@ -1,0 +1,11 @@
+.class-a {
+  height: 100px;
+  width: 100px;
+  background-color: mediumpurple;
+}
+
+div {
+  height: 200px;
+  width: 200px;
+  background-color: peru !important;
+}

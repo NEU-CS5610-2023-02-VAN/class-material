@@ -1,0 +1,8 @@
+.float-class div {
+  height: 100px;
+  width: 100px;
+  background-color: #2e86c1;
+  border: 1px solid #1F618D;
+
+  float: left;
+}
