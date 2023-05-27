@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+textarea {
+  width: 100%;
+}
+
+.tweet-form {
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 4px;
+}
+
+.tweets-list-wrapper,
+.tweet-form-wrapper {
+  background: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  width: 500px;
+  margin: 2rem 0;
+}
+
+.tweets-list-wrapper ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.tweet {
+  padding: 1rem 0;
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 1rem;
+  align-items: center;
+  border-bottom: 1px solid var(--gray);
+}
+
+.tweet span {
+  color: lightgray;
+  font-size: 12px;
+}
