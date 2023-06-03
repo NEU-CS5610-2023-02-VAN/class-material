@@ -1,0 +1,21 @@
+.app {
+  text-align: center;
+}
+
+.pets {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.pet {
+  background-color: palevioletred;
+  margin: 5px;
+  padding: 5px;
+}
+
+.pet-selected {
+  background-color: greenyellow;
+  border-radius: 10px;
+  border: 1px solid green;
+}
