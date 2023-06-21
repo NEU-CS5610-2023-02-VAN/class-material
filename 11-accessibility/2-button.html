@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="2-button.css" />
+  </head>
+  <body>
+    <button onclick="alert('Hello')">I'm Accesible</button>
+
+    <br />
+    <hr />
+    <br />
+
+    <div onclick="alert('Hello')">I'm not Accesible</div>
+
+    <br />
+    <hr />
+    <br />
+
+    <div onclick="alert('Hello')" role="button">I'm not Accesible</div>
+
+    <br />
+    <hr />
+    <br />
+
+    <div onclick="alert('Hello')" role="button" tabindex="0">
+      I'm not Accesible
+    </div>
+
+    <br />
+    <hr />
+    <br />
+
+    <div
+      onclick="alert('Hello')"
+      role="button"
+      tabindex="0"
+      aria-label="Alert the word hello"
+    >
+      I'm not Accesible
+    </div>
+
+    <br />
+    <hr />
+    <br />
+
+    <div
+      onclick="alert('Hello')"
+      role="button"
+      tabindex="0"
+      aria-label="Alert the word hello"
+      onkeyup="console.log('Add Javascript logic to hear for enter or space and trigger the button')"
+    >
+      I'm not Accesible
+    </div>
+
+  </body>
+</html>

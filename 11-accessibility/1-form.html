@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Example of an Acceesible form</title>
+  </head>
+  <body>
+    <form method="POST">
+      <div>
+        <label for="firstName">First Name</label>
+        <input type="text" id="firstName" placeholder="Enter first name" />
+      </div>
+      <br />
+      <div>
+        <label for="lastName">Last Name</label>
+        <input type="text" id="lastName" />
+      </div>
+      <br />
+      <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" />
+      </div>
+      <br />
+      <div>
+        <label for="message">Message</label>
+        <textarea id="message"></textarea>
+      </div>
+      <br />
+      <div>
+        <label for="state">State</label>
+        <select id="state">
+          <option value="BC">BC</option>
+          <option value="ON">ON</option>
+          <option value="QC">QC</option>
+          <option value="AB">AB</option>
+          <option value="NS">NS</option>
+          <option value="NL">NL</option>
+          <option value="PE">PE</option>
+          <option value="NB">NB</option>
+          <option value="MB">MB</option>
+          <option value="SK">SK</option>
+          <option value="YT">YT</option>
+          <option value="NT">NT</option>
+          <option value="NU">NU</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <label for="age">Age:</label>
+        <input type="number" id="age" value="30" />
+      </div>
+      <br />
+      <div>
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" />
+      </div>
+      <br />
+      <input type="submit" name="submit" value="Submit" />
+    </form>
+  </body>
+</html>
